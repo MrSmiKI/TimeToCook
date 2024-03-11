@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivty"
+    android:orientation="vertical"
+    android:gravity="center">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize"
+        android:src="@drawable/accc"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:textColor="#1B1919"
+        android:textSize="24sp"
+        android:fontFamily="@font/regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Далиев Досжан Даниярович"/>
+    <TextView
+        android:textColor="#1B1919"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/regular"
+        android:text="Приложения про готовку сделан для тех кто любит готовить \nУдобный функционал "/>
+    <TextView
+        android:id="@+id/instTextView"
+        android:textColor="#1B1919"
+        android:onClick="openInstagram"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/regular"
+        android:text="Instagram: d_05ddd"/>
+    <Button
+        android:fontFamily="@font/bold"
+        android:textAllCaps="false"
+        android:letterSpacing="0"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#35A83A"
+        android:id="@+id/backButton"
+        android:text="Назад"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

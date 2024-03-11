@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WellcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:alpha="0.25"
+        android:src="@drawable/asd"/>
+    <TextView
+        android:id="@+id/startTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:textAlignment="textStart"
+        android:layout_centerHorizontal="true"
+        android:text="Пришло\nВремя\nГотовить"
+        android:textColor="#FE836E"
+        android:fontFamily="@font/bold"
+        android:textSize="48sp"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+
+        android:textColor="@color/white"
+        android:text="Готов"
+        android:id="@+id/readyButton"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/startTextView"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius = "15dp"
+        android:backgroundTint="#FE836E"
+        />
+
+
+</RelativeLayout>
